@@ -1,0 +1,51 @@
+.ant-layout{
+.ant-layout-header{
+  display: flex;
+  background-color: rgb(225, 235, 235);
+  .contentHead{
+    display: inline;
+  }
+}
+.ant-layout-footer{
+  background-color: rgb(225, 235, 235);
+  text-align: center;
+
+}
+.ant-layout-content{
+  .normal{
+    height: 200px;
+    background-color: azure;
+    background-image: url('./redux/background.jpg');
+  }
+  .head{
+    text-align: center;
+  }
+  .acol{
+background-color: rgb(245, 119, 119);
+  }
+  .bcol{
+    background-color: rgb(85, 83, 83);
+  }
+  .ccol{
+    background-color: rgb(230, 223, 223);
+  }
+  .dcol{
+    background-color: rgb(230, 223, 223);
+  }
+  .ecol{
+    background-color: aqua;
+  }
+  .fcol{
+    background-color: rgb(10, 88, 88);
+  }
+  .ant-table-thead > tr > th{
+   color:rgb(6, 141, 175);
+   background-color: rgb(248, 245, 241);
+  }
+
+  .ant-table-tbody{
+  background-color: rgb(248, 244, 239);
+
+  }
+}
+}
